@@ -4,6 +4,10 @@ h1 {
     background-color: lightgreen
 }
 
+body {
+    font-family: 'Poppins', cursive;
+}
+
 p {
     width: 800px;
     margin: 0 auto;
