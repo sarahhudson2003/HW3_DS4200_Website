@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: blue;
+    background-color: lightgreen
+}
+
+p {
+    width: 800px;
+    margin: 0 auto;
+    color: blue;
+}
+
+#main {
+    color: blue;
+    background-color: lavender;
+}
+
+.A {
+    padding: 0 10px 20px 30px;
+    background-color: lightgreen;
+}
+
+.image-container {
+    display: flex;
+    align-items: center; /* Aligns images and text vertically */
+    justify-content: center; /* Keeps everything in a row */
+    gap: 20px; /* Adds space between elements */
+}
+
+.text-between {
+    color: blue;
+    background-color: lightgreen;
+    max-width: 800px; /* Adjust width for better spacing */
+    text-align: center; /* Centers the text */
+}
+
+.list-heading {
+    color: blue;
+    background-color: lavender;
+    width: 100vw;
+    text-align: left; /* Centers the text */
+
+}
