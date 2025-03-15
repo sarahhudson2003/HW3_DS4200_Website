@@ -29,6 +29,23 @@
     <img src="https://antares.am/wp-content/uploads/2024/12/Music.jpg" alt="" width = 416.67>
     <img src="https://antares.am/wp-content/uploads/2024/12/Music.jpg" alt="" width = 416.67>
 
+    <script>
+        function changeH1Colors() {
+            const h1 = document.querySelector("h1");
+            const colors = ["blue", "green", "blue"];
+            const bgColors = ["lightgreen", "lightblue", "lavender",];
+    
+            let index = 0;
+    
+            setInterval(() => {
+                h1.style.color = colors[index];
+                h1.style.backgroundColor = bgColors[index];
+                index = (index + 1) % colors.length;
+            }, 1000);
+        }
+    
+        window.onload = changeH1Colors;
+    </script>
 
 </body>
 </html>
